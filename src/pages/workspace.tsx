@@ -11,14 +11,13 @@ import Test7 from "./test/test7";
 import Test8 from "./test/test8";
 import Test9 from "./test/test9";
 import Test10 from "./test/test10";
+import Test11 from "./test/test11";
 //
 const TabPane = Tabs.TabPane;
 //
 const WorkSpace: React.FC = () => {
   //
-  const onChange = (key: string) => {
-    console.log(key);
-  };
+  const onChange = (key: string) => {};
 
   return (
     <div style={{ margin: "20px" }}>
@@ -52,6 +51,9 @@ const WorkSpace: React.FC = () => {
         </TabPane>
         <TabPane tab="RequestMapping" key="10">
           <Test10 />
+        </TabPane>
+        <TabPane tab="Upload/Download" key="11">
+          <Test11 />
         </TabPane>
       </Tabs>
     </div>
