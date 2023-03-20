@@ -22,7 +22,7 @@ const test1: React.FC = () => {
         // always executed
       });
   };
-  const onPostTest = (e: React.MouseEvent<HTMLElement>) => {
+  const onPostTest = () => {
     //const axios = require('axios'); // legacy way
     // Make a request for a user with a given ID
     axios

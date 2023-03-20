@@ -4,6 +4,13 @@ import { Tabs } from "antd";
 import Test1 from "./test/test1";
 import Test2 from "./test/test2";
 import Test3 from "./test/test3";
+import Test4 from "./test/test4";
+import Test5 from "./test/test5";
+import Test6 from "./test/test6";
+import Test7 from "./test/test7";
+import Test8 from "./test/test8";
+import Test9 from "./test/test9";
+import Test10 from "./test/test10";
 //
 const TabPane = Tabs.TabPane;
 //
@@ -22,8 +29,29 @@ const WorkSpace: React.FC = () => {
         <TabPane tab="Rest API" key="2">
           <Test2 />
         </TabPane>
-        <TabPane tab="test3" key="3">
+        <TabPane tab="HttpServletRequest" key="3">
           <Test3 />
+        </TabPane>
+        <TabPane tab="@PathVariable" key="4">
+          <Test4 />
+        </TabPane>
+        <TabPane tab="@RequestParam" key="5">
+          <Test5 />
+        </TabPane>
+        <TabPane tab="@ModelAttribute" key="6">
+          <Test6 />
+        </TabPane>
+        <TabPane tab="@RequestBody" key="7">
+          <Test7 />
+        </TabPane>
+        <TabPane tab="Model" key="8">
+          <Test8 />
+        </TabPane>
+        <TabPane tab="ModelAndView" key="9">
+          <Test9 />
+        </TabPane>
+        <TabPane tab="RequestMapping" key="10">
+          <Test10 />
         </TabPane>
       </Tabs>
     </div>

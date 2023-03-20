@@ -7,7 +7,7 @@ const test2: React.FC = () => {
 
   const onRestGetSelect = () => {
     axios
-      .get("restselect?id=2&name=유관순")
+      .get("restgetselect?id=2&name=유관순")
       .then(function (response) {
         // handle success
         console.log(response);
