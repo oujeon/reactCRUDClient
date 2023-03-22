@@ -12,6 +12,7 @@ import Test8 from "./test/test8";
 import Test9 from "./test/test9";
 import Test10 from "./test/test10";
 import Test11 from "./test/test11";
+import Test12 from "./test/test12";
 //
 const TabPane = Tabs.TabPane;
 //
@@ -54,6 +55,9 @@ const WorkSpace: React.FC = () => {
         </TabPane>
         <TabPane tab="Upload/Download" key="11">
           <Test11 />
+        </TabPane>
+        <TabPane tab="Vo" key="12">
+          <Test12 />
         </TabPane>
       </Tabs>
     </div>

@@ -7,7 +7,7 @@ const Test3: React.FC = () => {
 
   const onRestGetHttpServletRequestSelect = () => {
     axios
-      .get("restgethttpservletRequestselect?idId=2&nameName=유관순")
+      .get("restGetHttpServletRequestSelect?idId=2&nameName=유관순")
       .then(function (response) {
         // handle success
         console.log(response);
@@ -23,7 +23,7 @@ const Test3: React.FC = () => {
   //
   const onRestPostHttpServletRequestInsert = () => {
     axios
-      .post("restposthttpservletrequestinsert", {
+      .post("restPostHttpServletRequestInsert", {
         idId: "3",
         nameName: "강감찬",
       })

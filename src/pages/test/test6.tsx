@@ -7,7 +7,7 @@ const Test3: React.FC = () => {
 
   const onRestGetModelAttributeSelect = () => {
     axios
-      .get("restgetmodelattributeselect?idId=2&nameName=유관순")
+      .get("restGetModelAttributeSelect?idId=2&nameName=유관순")
       .then(function (response) {
         // handle success
         console.log(response);

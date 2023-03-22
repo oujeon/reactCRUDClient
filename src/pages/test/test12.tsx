@@ -2,12 +2,12 @@ import React from "react";
 import { Button } from "antd";
 import axios from "axios";
 //
-const Test3: React.FC = () => {
+const test12: React.FC = () => {
   //
 
-  const onRestGetRequestParamSelect = () => {
+  const onRestGetVoSelect = () => {
     axios
-      .get("restGetRequestParamSelect?idId=2&nameName=유관순")
+      .get("restgetvoselect?idId=1")
       .then(function (response) {
         // handle success
         console.log(response);
@@ -20,17 +20,17 @@ const Test3: React.FC = () => {
         // always executed
       });
   };
+
   //
   return (
     <div>
       <div>
-        <Button type="primary" onClick={onRestGetRequestParamSelect}>
-          Rest Get @RequestParam Select
+        <Button type="primary" onClick={onRestGetVoSelect}>
+          Rest Get Vo Select
         </Button>
       </div>
-      <br />
     </div>
   );
 };
 
-export default Test3;
+export default test12;

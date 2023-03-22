@@ -7,7 +7,7 @@ const Test3: React.FC = () => {
 
   const onRestGetPathVariableSelect = () => {
     axios
-      .get("restgetpathvariableselect/2/유관순")
+      .get("restGetPathVariableSelect/2/유관순")
       .then(function (response) {
         // handle success
         console.log(response);

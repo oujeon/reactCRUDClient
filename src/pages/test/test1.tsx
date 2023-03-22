@@ -5,11 +5,9 @@ import axios from "axios";
 const test1: React.FC = () => {
   //
 
-  const onGetTest = (e: React.MouseEvent<HTMLElement>) => {
-    //const axios = require('axios'); // legacy way
-    // Make a request for a user with a given ID
+  const onGetTest = () => {
     axios
-      .get("gettest")
+      .get("gettest?idId=1&nameName=홍길동")
       .then(function (response) {
         // handle success
         console.log(response);
@@ -23,11 +21,10 @@ const test1: React.FC = () => {
       });
   };
   const onPostTest = () => {
-    //const axios = require('axios'); // legacy way
-    // Make a request for a user with a given ID
     axios
       .post("posttest", {
-        test: "Hello World",
+        idId: "1",
+        nameName: "홍길동",
       })
       .then(function (response) {
         // handle success
