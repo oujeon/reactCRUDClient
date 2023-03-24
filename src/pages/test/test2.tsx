@@ -7,7 +7,7 @@ const test2: React.FC = () => {
 
   const onRestGetSelect = () => {
     axios
-      .get("restgetselect?idId=1")
+      .get("restGetSelect?idId=1")
       .then(function (response) {
         // handle success
         console.log(response);
@@ -23,7 +23,7 @@ const test2: React.FC = () => {
   //
   const onRestPostInsert = () => {
     axios
-      .post("restpostinsert", {
+      .post("restPostInsert", {
         idId: "3",
         nameName: "강감찬",
       })
@@ -42,7 +42,7 @@ const test2: React.FC = () => {
   //
   const onRestPutUpdate = () => {
     axios
-      .put("restputupdate", {
+      .put("restPutUpdate", {
         idId: "3",
         nameName: "강감찬2",
       })
@@ -61,7 +61,7 @@ const test2: React.FC = () => {
   //
   const onRestDeleteDelete = () => {
     axios
-      .delete("restdeletedelete?idId=3")
+      .delete("restDeleteDelete?idId=3")
       .then(function (response) {
         // handle success
         console.log(response);

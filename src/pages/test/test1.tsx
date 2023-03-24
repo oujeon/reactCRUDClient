@@ -7,7 +7,7 @@ const test1: React.FC = () => {
 
   const onGetTest = () => {
     axios
-      .get("gettest?idId=1&nameName=홍길동")
+      .get("getTest?idId=1&nameName=홍길동")
       .then(function (response) {
         // handle success
         console.log(response);
@@ -22,7 +22,7 @@ const test1: React.FC = () => {
   };
   const onPostTest = () => {
     axios
-      .post("posttest", {
+      .post("postTest", {
         idId: "1",
         nameName: "홍길동",
       })

@@ -7,7 +7,7 @@ const Test8: React.FC = () => {
   //
   const onRestGetModelSelect = () => {
     axios
-      .get("restgetmodelselect")
+      .get("restGetModelSelect")
       .then(function (response) {
         // handle success
         console.log(response);

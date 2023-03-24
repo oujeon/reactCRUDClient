@@ -25,7 +25,7 @@ const Test3: React.FC = () => {
     //const axios = require('axios'); // legacy way
     // Make a request for a user with a given ID
     axios
-      .post("restpostmodelattributeselect", {
+      .post("restPostModelAttributeSelect", {
         idId: "2",
         nameName: "유관순",
       })
@@ -60,12 +60,12 @@ const Test3: React.FC = () => {
       <br />
       <div>
         <form
-          action="http://localhost:8080/restformmodelattributeselect"
+          action="http://localhost:8080/restFormModelAttributeSelect"
           method="POST"
         >
-          idId :{" "}
+          idId :
           <input type="number" name="idId" value="2" onChange={onIdId}></input>
-          nameName :{" "}
+          nameName :
           <input
             type="text"
             name="nameName"

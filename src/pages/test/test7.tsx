@@ -7,7 +7,7 @@ const Test7: React.FC = () => {
 
   const onRestGetRequestBodySelect = () => {
     axios
-      .get("restgetrequestbodyselect?idId=2&nameName=유관순")
+      .get("restGetRequestBodySelect?idId=2&nameName=유관순")
       .then(function (response) {
         // handle success
         console.log(response);
@@ -25,7 +25,7 @@ const Test7: React.FC = () => {
     //const axios = require('axios'); // legacy way
     // Make a request for a user with a given ID
     axios
-      .post("restpostrequestbodyselect", {
+      .post("restPostRequestBodySelect", {
         idId: "2",
         nameName: "유관순",
       })
@@ -60,7 +60,7 @@ const Test7: React.FC = () => {
       <br />
       <div>
         <form
-          action="http://localhost:8080/restformrequestbodyselect"
+          action="http://localhost:8080/restFormRequestBodySelect"
           method="POST"
         >
           idId :{" "}
