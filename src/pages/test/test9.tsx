@@ -11,7 +11,7 @@ const Test9: React.FC = () => {
     <div>
       <div>
         <Button type="primary" onClick={onRestGetModelSelect}>
-          Rest Get ModelAndView Select
+          Rest Get ModelAndView Select 코드 없음
         </Button>
       </div>
       <br />

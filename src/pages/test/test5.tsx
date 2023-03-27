@@ -21,11 +21,36 @@ const Test3: React.FC = () => {
       });
   };
   //
+  const onRestPostRequestParamSelect = () => {
+    axios
+      .post("restPostRequestParamSelect", {
+        idId: "1",
+        nameName: "홍길동",
+      })
+      .then(function (response) {
+        // handle success
+        console.log(response);
+      })
+      .catch(function (error) {
+        // handle error
+        console.log(error);
+      })
+      .finally(function () {
+        // always executed
+      });
+  };
+  //
   return (
     <div>
       <div>
         <Button type="primary" onClick={onRestGetRequestParamSelect}>
-          Rest Get @RequestParam Select
+          Rest Get @RequestParam Select 성공
+        </Button>
+      </div>
+      <br />
+      <div>
+        <Button type="primary" onClick={onRestPostRequestParamSelect}>
+          Rest Post @RequestParam Select 실패
         </Button>
       </div>
       <br />

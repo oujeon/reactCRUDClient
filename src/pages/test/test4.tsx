@@ -25,7 +25,7 @@ const Test3: React.FC = () => {
     <div>
       <div>
         <Button type="primary" onClick={onRestGetPathVariableSelect}>
-          Rest Get @PathVariable Select
+          Rest Get @PathVariable Select 성공
         </Button>
       </div>
       <br />

@@ -43,13 +43,13 @@ const test1: React.FC = () => {
     <div>
       <div>
         <Button type="primary" onClick={onGetTest}>
-          Get Test
+          Get Test 성공
         </Button>
       </div>
       <br />
       <div>
         <Button type="primary" onClick={onPostTest}>
-          Post Test
+          Post Test 성공
         </Button>
       </div>
     </div>

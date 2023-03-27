@@ -25,7 +25,7 @@ const Test8: React.FC = () => {
     <div>
       <div>
         <Button type="primary" onClick={onRestGetModelSelect}>
-          Rest Get Model Select
+          Rest Get Model Select 성공
         </Button>
       </div>
       <br />

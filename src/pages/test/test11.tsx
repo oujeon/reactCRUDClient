@@ -64,10 +64,10 @@ const Test10: React.FC = () => {
         encType="multipart/form-data"
       >
         <input type="file" id="fileName" name="fileName" onClick={onUpload} />
-        <button type="submit"> Upload </button>
+        <button type="submit"> Upload 성공 </button>
       </form>
       <button type="button" onClick={onDownload}>
-        Download{" "}
+        Download 성공
       </button>
     </div>
   );

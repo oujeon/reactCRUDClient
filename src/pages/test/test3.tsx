@@ -45,13 +45,13 @@ const Test3: React.FC = () => {
     <div>
       <div>
         <Button type="primary" onClick={onRestGetHttpServletRequestSelect}>
-          Rest Get HttpServeltRequest Select
+          Rest Get HttpServeltRequest Select 성공
         </Button>
       </div>
       <br />
       <div>
         <Button type="primary" onClick={onRestPostHttpServletRequestInsert}>
-          Rest post HttpServeltRequest Insert
+          Rest post HttpServeltRequest Insert 성공
         </Button>
       </div>
     </div>

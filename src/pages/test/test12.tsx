@@ -61,9 +61,9 @@ const test12: React.FC = () => {
       });
   };
   //
-  const onRestPutVoDelete = () => {
+  const onRestDeleteVoDelete = () => {
     axios
-      .delete("restPutVoDelete?idId=3")
+      .delete("restDeleteVoDelete?idId=3")
       .then(function (response) {
         // handle success
         console.log(response);
@@ -81,25 +81,25 @@ const test12: React.FC = () => {
     <div>
       <div>
         <Button type="primary" onClick={onRestGetVoSelect}>
-          Rest Get Vo Select
+          Rest Get Vo Select 성공
         </Button>
       </div>
       <br />
       <div>
         <Button type="primary" onClick={onRestPostVoInsert}>
-          Rest Post Vo Insert
+          Rest Post Vo Insert 성공
         </Button>
       </div>
       <br />
       <div>
         <Button type="primary" onClick={onRestPutVoUpdate}>
-          Rest Put Vo Update
+          Rest Put Vo Update 성공
         </Button>
       </div>
       <br />
       <div>
-        <Button type="primary" onClick={onRestPutVoDelete}>
-          Rest Delete Vo Delete
+        <Button type="primary" onClick={onRestDeleteVoDelete}>
+          Rest Delete Vo Delete 성공
         </Button>
       </div>
     </div>

@@ -79,25 +79,25 @@ const test2: React.FC = () => {
     <div>
       <div>
         <Button type="primary" onClick={onRestGetSelect}>
-          Rest Get Select
+          Rest Get Select 성공
         </Button>
       </div>
       <br />
       <div>
         <Button type="primary" onClick={onRestPostInsert}>
-          Rest post Insert
+          Rest post Insert 성공
         </Button>
       </div>
       <br />
       <div>
         <Button type="primary" onClick={onRestPutUpdate}>
-          Rest Put Update
+          Rest Put Update 성공
         </Button>
       </div>
       <br />
       <div>
         <Button type="primary" onClick={onRestDeleteDelete}>
-          Rest Delete Delete
+          Rest Delete Delete 성공
         </Button>
       </div>
     </div>

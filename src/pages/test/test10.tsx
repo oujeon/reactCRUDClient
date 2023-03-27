@@ -12,13 +12,13 @@ const Test9: React.FC = () => {
     <div>
       <div>
         <Button type="primary" onClick={onRestGetRequestMappingSelect}>
-          Rest Get RequestMapping Select
+          Rest Get RequestMapping Select 코드 없음
         </Button>
       </div>
       <br />
       <div>
         <Button type="primary" onClick={onRestPostRequestMappingSelect}>
-          Rest Post RequestMapping Select
+          Rest Post RequestMapping Select 코드 없음
         </Button>
       </div>
       <br />
